@@ -2,4 +2,215 @@
     padding: 0;
     margin: 0;
     text-decoration: none;
+    font-family: sans-serif;
+}
+
+header{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
+    img{
+        width: 70px;
+        padding-left: 100px;
+    }
+
+    ul{
+        display: flex;
+        margin-right: 120px;
+
+        li{
+            list-style-type: none;
+            color: #7793a0;
+            font-family: sans-serif;
+            padding: 0px 30px 0px 30px;
+            transition: 0.4s;
+
+            &:hover{
+                transform: scale(1.2);
+                transition: 0.4s;
+                color: #77F2FF;
+            }
+        }
+    }
+}
+
+.page1{
+    background-image: url("/images/font_page1.png");
+    background-size: 100%;
+    height: 100vh;
+
+    &-container{
+        padding-top: 300px;
+        padding-left: 200px;
+        width: 650px;
+
+        &__icone{
+            width: 150px;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            
+            a{
+                color: #77F2FF;
+                font-size: 20px;
+                transition: 0.4s;
+
+                &:hover{
+                    transform: scale(1.2);
+                    transition: 0.4;
+                }
+            }
+        }
+
+        &__text{
+            border-left: 2px solid #7793a0;
+            padding-left: 50px;
+
+            h1{
+                color: white;
+                font-size: 55px;
+                margin-top: 25px;
+                font-family: sans-serif;
+
+                span{
+                    color: #77F2FF;
+                }
+            }
+            
+            p{
+                color: #7793a0;
+                font-family: sans-serif;
+                margin-top: 20px;
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+.page2{
+    background-color: #0B1117;
+    height: 100vh;
+
+    &-container{
+        color: white;
+        padding-top: 150px;
+        max-width: 1500px;
+        margin: auto;
+
+        h2{
+            font-size: 40px;
+
+            span{
+                color: #77F2FF;
+            }
+        }
+
+        #page2-presentation{
+            font-size: 17px;
+            margin-top: 20px;
+            margin-left: 70px;
+            border-left: 1px solid #7793a0;
+            color: #7793a0;
+            padding-left: 20px;
+        }
+
+        &__info{
+            display: flex;
+            justify-content: space-between;
+            max-width: 1100px;
+            margin: auto;
+            margin-top: 200px;
+        }
+
+        &__qualite{
+            h3{
+                font-size: 30px;
+                color: #77F2FF;
+                margin-bottom: 15px;
+            }
+
+            p{
+                color: #7793a0;
+                font-size: 25px;
+            }
+        }
+
+        &__interet{
+
+            &--icone{
+                display: flex;
+
+                i{
+                    margin-right: 20px;
+                    border: 1px solid #7793a0;
+                    color: #7793a0;
+                    font-size: 40px;
+                    padding: 10px;
+                }
+            }
+            
+            h3{
+                font-size: 30px;
+                color: #77F2FF;
+                margin-bottom: 15px;
+            }
+        }
+
+        button{
+            display: flex;
+            margin: auto;
+            margin-top: 80px;
+            padding: 20px;
+            background-color: #0B1117;
+            color: #77F2FF;
+            border-color: #77F2FF;
+            font-size: 20px;
+        }
+    }
+}
+
+.page3{
+    background-color: #111820;
+    height: 100vh;
+
+    &-container{
+        color: white;
+        padding-top: 150px;
+        max-width: 1500px;
+        margin: auto;
+
+        h2{
+            font-size: 40px;
+
+            span{
+                color: #77F2FF;
+            }
+        }
+
+        &__elt{
+            display: flex;
+            justify-content: center;
+        }
+
+        &__chiffre{
+            display: flex;
+            margin-top: 125px;
+            text-align: center;
+            width: 500px;
+            justify-content: space-between;
+            
+            div{
+                h3{
+                    font-size: 60px;
+                }
+                
+                p{
+                    
+                }
+            }
+        }
+    }
 }
