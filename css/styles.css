@@ -230,6 +230,37 @@ header ul li:hover {
 .page4-container h2 span {
   color: #77F2FF;
 }
+.page4-container__elt {
+  margin: auto;
+  margin-top: 100px;
+  max-width: 1300px;
+  display: flex;
+  justify-content: space-between;
+}
+.page4-container__left div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.page4-container__left div img {
+  margin-top: 25px;
+  width: 500px;
+}
+.page4-container__left div i {
+  font-size: 60px;
+}
+.page4-container__right div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.page4-container__right div img {
+  margin-top: 25px;
+  width: 500px;
+}
+.page4-container__right div i {
+  font-size: 60px;
+}
 .page4 .home {
   display: flex;
   flex-direction: column;
