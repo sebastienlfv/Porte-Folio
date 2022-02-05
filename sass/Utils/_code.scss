@@ -289,6 +289,7 @@ header{
                 display: flex;
                 align-items: center;
                 margin-bottom: 50px;
+                position: relative;
 
                 img{
                     margin-top: 25px;
@@ -297,6 +298,17 @@ header{
 
                 i{
                     font-size: 60px;
+                }
+
+                p{
+                    position: absolute;
+                    top: 35px;
+                    right: 35px;
+                    font-size: 15px;
+                }
+
+                .javascript{
+                    right: 27px;
                 }
             }
         }
@@ -306,14 +318,26 @@ header{
                 display: flex;
                 align-items: center;
                 margin-bottom: 50px;
+                position: relative;
 
                 img{
                     margin-top: 25px;
                     width: 500px;
                 }
 
+                .visualstudio{
+                    width: 55px;
+                }
+
                 i{
                     font-size: 60px;
+                }
+
+                p{
+                    position: absolute;
+                    top: 35px;
+                    right: 25px;
+                    font-size: 15px;
                 }
             }
         }
@@ -363,7 +387,7 @@ footer{
         .footer-container__elt{
             padding-top: 70px;
             display: flex;
-            justify-content: space-between;
+            justify-content: space-around;
         }
 
         &__contact{
@@ -433,5 +457,73 @@ footer{
                 }
             }
         }
+    }
+}
+
+// PAGE PROJETS
+
+.body-projet{
+    background-color: #0B1117;
+
+    .projet-container{
+        padding-top: 200px;
+        max-width: 1500px;
+        margin: auto;
+
+        h2{
+            color: white;
+            font-size: 40px;
+
+            span{
+                color: #77F2FF;
+            }
+        }
+
+        &__elt{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 130px;
+
+            &__p{
+                h3{
+                    font-size: 30px;
+                    color: #77F2FF;
+                }
+
+                p{
+                    color: #7793a0;
+                    width: 500px;
+                    margin-top: 30px;
+                    text-align: justify;
+                    border-left: solid 1px #7793a0;
+                    padding-left: 20px;
+                }
+
+                button{
+                    margin-top: 30px;
+                    background-color: #77F2FF;
+                    color: #7793a0;
+                    padding: 10px 35px;
+                    font-size: 22px;
+                }
+            }
+
+            img{
+                width: 700px;
+            }
+        }
+
+        .projetsco{
+            margin-top: 150px;
+        }
+
+        &__elt:nth-child(3), &__elt:nth-child(5), &__elt:nth-child(6){
+            flex-direction: row-reverse;
+        }
+    }
+
+    footer{
+        margin-top: 150px;
     }
 }

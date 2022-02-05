@@ -241,6 +241,7 @@ header ul li:hover {
   display: flex;
   align-items: center;
   margin-bottom: 50px;
+  position: relative;
 }
 .page4-container__left div img {
   margin-top: 25px;
@@ -249,17 +250,36 @@ header ul li:hover {
 .page4-container__left div i {
   font-size: 60px;
 }
+.page4-container__left div p {
+  position: absolute;
+  top: 35px;
+  right: 35px;
+  font-size: 15px;
+}
+.page4-container__left div .javascript {
+  right: 27px;
+}
 .page4-container__right div {
   display: flex;
   align-items: center;
   margin-bottom: 50px;
+  position: relative;
 }
 .page4-container__right div img {
   margin-top: 25px;
   width: 500px;
 }
+.page4-container__right div .visualstudio {
+  width: 55px;
+}
 .page4-container__right div i {
   font-size: 60px;
+}
+.page4-container__right div p {
+  position: absolute;
+  top: 35px;
+  right: 25px;
+  font-size: 15px;
 }
 .page4 .home {
   display: flex;
@@ -299,7 +319,7 @@ footer .footer-container {
 footer .footer-container .footer-container__elt {
   padding-top: 70px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 footer .footer-container__contact div {
   display: flex;
@@ -346,6 +366,59 @@ footer .footer-container__pages div a {
 }
 footer .footer-container__pages div p:nth-child(1) {
   padding-bottom: 10px;
+}
+
+.body-projet {
+  background-color: #0B1117;
+}
+.body-projet .projet-container {
+  padding-top: 200px;
+  max-width: 1500px;
+  margin: auto;
+}
+.body-projet .projet-container h2 {
+  color: white;
+  font-size: 40px;
+}
+.body-projet .projet-container h2 span {
+  color: #77F2FF;
+}
+.body-projet .projet-container__elt {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 130px;
+}
+.body-projet .projet-container__elt__p h3 {
+  font-size: 30px;
+  color: #77F2FF;
+}
+.body-projet .projet-container__elt__p p {
+  color: #7793a0;
+  width: 500px;
+  margin-top: 30px;
+  text-align: justify;
+  border-left: solid 1px #7793a0;
+  padding-left: 20px;
+}
+.body-projet .projet-container__elt__p button {
+  margin-top: 30px;
+  background-color: #77F2FF;
+  color: #7793a0;
+  padding: 10px 35px;
+  font-size: 22px;
+}
+.body-projet .projet-container__elt img {
+  width: 700px;
+}
+.body-projet .projet-container .projetsco {
+  margin-top: 150px;
+}
+.body-projet .projet-container__elt:nth-child(3), .body-projet .projet-container__elt:nth-child(5), .body-projet .projet-container__elt:nth-child(6) {
+  flex-direction: row-reverse;
+}
+.body-projet footer {
+  margin-top: 150px;
 }
 
 @font-face {
